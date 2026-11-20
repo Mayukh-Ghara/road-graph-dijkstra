@@ -234,8 +234,8 @@ if __name__ == "__main__":
         edges_summary = [(e["to"], f"{e['distance']}m", e["road_id"]) for e in info["edges"]]
         print(f"Node {node_id} {info['coord']} -> {edges_summary}")
 
-    source_node_id = 5  # (77.59, 12.972) - Top-left intersection (R3 & R5)
-    target_node_id = 7  # (77.596, 12.968) - Bottom-right endpoint of Market Road (R4)
+    source_node_id = 5 
+    target_node_id = 7  
 
     path = dijkstra_shortest_path(
         graph=graph,
