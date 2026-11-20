@@ -85,7 +85,7 @@ road_graph_dijkstra/
 First, clone the repository and navigate into the project directory:
 
 ```bash
-git clone [https://github.com/](https://github.com/)<YOUR_GITHUB_USERNAME>/road-graph-dijkstra.git
+git clone https://github.com/Mayukh-Ghara/road-graph-dijkstra.git
 cd road-graph-dijkstra
 ```
 
